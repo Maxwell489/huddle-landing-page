@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#bg-page{
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: hsl(257, 40%, 49%);
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.cabecalho{
+    display: flex;
+    margin: 4rem 0 5rem 3rem;
+}
+
+.cabecalho_logo{
+    width: 18%;
+}
+
+.area-principal{
+    display: flex;
+}
+
+.principal_ilustracao{
+    /* width: calc(min(1020px, 50%)); */
+    margin: 1rem;
+}
+
+.texto_principal{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    /* width: calc(min(1020px, 50%)); */
+}
+
+.titulo-principal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.txt-principal{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.botao_principal{
+    /* width: calc(min(1020px, 35%)); */
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    color: blueviolet;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    margin-right: 22rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205) ;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 375px) {
+    .cabecalho_logo{
+        width: 85%;
+    }
+
+    .area-principal{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .botao_principal{
+        margin: 1rem;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 425px) {
+    .cabecalho_logo{
+        width: 85%;
+    }
+
+    .area-principal{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .botao_principal{
+        margin: 1rem;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .cabecalho_logo{
+        width: 85%;
+    }
+
+    .area-principal{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .botao_principal{
+        margin: 1rem;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
