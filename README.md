@@ -1,5 +1,8 @@
 # Frontend Mentor - Huddle landing page with single introductory section
 
+https://huddlepages.netlify.app/
+Esse é o projeto já postado na web.
+
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ![mobile-design](https://user-images.githubusercontent.com/69826121/167440447-a84088d5-8a77-405d-ab7a-09d32173f1d6.jpg)
